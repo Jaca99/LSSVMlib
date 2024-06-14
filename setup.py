@@ -17,10 +17,10 @@ setup(
     packages=find_packages(include=['LSSVMlib'],exclude=['examples', 'examples.*']),
     zip_safe=False,
     install_requires=[
-        'sklearn',
+        'scikit-learn',
         'numpy',
         'pandas',
-        'scikit-learn',
+        'scipy',
     ],
     classifiers=[
         'Intended Audience :: Developers',

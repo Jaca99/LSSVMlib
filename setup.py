@@ -20,7 +20,7 @@ setup(
         'sklearn',
         'numpy',
         'pandas',
-        'scipy',
+        'scikit-learn',
     ],
     classifiers=[
         'Intended Audience :: Developers',
